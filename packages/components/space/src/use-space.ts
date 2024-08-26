@@ -6,9 +6,11 @@ import type { SpaceProps } from './space'
 import type { CSSProperties, StyleValue } from 'vue'
 
 const SIZE_MAP = {
+  mini: 8,
   small: 8,
-  default: 12,
+  medium: 12,
   large: 16,
+  default: 16,
 } as const
 
 export function useSpace(props: SpaceProps) {
