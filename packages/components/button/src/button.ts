@@ -4,12 +4,14 @@ import { Loading } from '@element-plus/icons-vue'
 import type { Component, ExtractPropTypes } from 'vue'
 
 export const buttonTypes = [
-  'default',
   'primary',
+  'secondary',
+  'neutral',
   'success',
-  'warning',
   'info',
+  'warning',
   'danger',
+  'default',
   /**
    * @deprecated
    * Text type will be deprecated in the next major version (3.0.0)

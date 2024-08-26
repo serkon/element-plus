@@ -36,7 +36,7 @@ interface SelectProps {
   popperClass?: string
   defaultFirstOption?: boolean
   fitInputWidth?: boolean
-  size?: 'small' | 'default' | 'large'
+  size?: 'small' | 'default' | 'large' | 'medium' | 'mini'
 }
 
 const _mount = (template: string, data: any = () => ({}), otherObj?) =>

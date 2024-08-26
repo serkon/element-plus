@@ -14,7 +14,16 @@ export const checkTagProps = buildProps({
    */
   type: {
     type: String,
-    values: ['primary', 'success', 'info', 'warning', 'danger'],
+    values: [
+      'primary',
+      'secondary',
+      'neutral',
+      'success',
+      'info',
+      'warning',
+      'danger',
+      'default',
+    ],
     default: 'primary',
   },
 } as const)

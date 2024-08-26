@@ -8,7 +8,16 @@ export const linkProps = buildProps({
    */
   type: {
     type: String,
-    values: ['primary', 'success', 'warning', 'info', 'danger', 'default'],
+    values: [
+      'primary',
+      'secondary',
+      'neutral',
+      'success',
+      'info',
+      'warning',
+      'danger',
+      'default',
+    ],
     default: 'default',
   },
   /**

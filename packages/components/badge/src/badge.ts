@@ -29,7 +29,16 @@ export const badgeProps = buildProps({
    */
   type: {
     type: String,
-    values: ['primary', 'success', 'warning', 'info', 'danger'],
+    values: [
+      'primary',
+      'secondary',
+      'neutral',
+      'success',
+      'info',
+      'warning',
+      'danger',
+      'default',
+    ],
     default: 'danger',
   },
   /**
